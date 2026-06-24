@@ -4,6 +4,8 @@ node_modules/
 # Build and coverage output
 dist/
 build/
+release/
+out/
 coverage/
 
 # Environment files
@@ -24,6 +26,20 @@ pnpm-debug.log*
 .yarn/cache/
 .yarn/unplugged/
 
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local application data
+data/
+*.db
+*.db-shm
+*.db-wal
+
 # Local editor settings
 .trae/
 .idea/
@@ -32,4 +48,3 @@ pnpm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
-
